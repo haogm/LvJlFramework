@@ -31,6 +31,11 @@ namespace LvJl.Component.Tools
         /// </summary>
         public DateTime CreateTime { get; set; }
 
+        /// <summary>
+        /// 获取或设置 版本控制标识
+        /// </summary>
+        public byte[] Timestamp { get; set; }
+
         #endregion
     }
 }
