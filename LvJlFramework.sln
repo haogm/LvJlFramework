@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Presentation（展现层�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LvJl.Component.Data", "LvJl.Component.Data\LvJl.Component.Data.csproj", "{33214E65-D97A-4AC7-9163-8A81F3709E93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LvJl.Component.Tools", "LvJl.Component.Tools\LvJl.Component.Tools.csproj", "{5D0556B4-9FEE-485E-8D9A-76986ED2CEB5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LvJl.Framework.Core", "LvJl.Framework.Core\LvJl.Framework.Core.csproj", "{9E73F40A-233D-4FF5-B4E7-0071B62F33D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LvJl.Framework.Core.Data", "LvJl.Framework.Core.Data\LvJl.Framework.Core.Data.csproj", "{C2220077-76BF-404B-BA60-6A4D4B398326}"
@@ -27,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LvJl.Framework.Site.Models"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LvJl.Framework.FineUI", "LvJl.framework.Webform\LvJl.Framework.FineUI.csproj", "{35AB0FCA-99E3-41A9-8418-A99B54236D8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LvJl.Component.Tools", "LvJl.Component.Tools\LvJl.Component.Tools.csproj", "{E228CBDF-CD6E-457E-8DD9-7B9787E29DF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,10 +37,6 @@ Global
 		{33214E65-D97A-4AC7-9163-8A81F3709E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33214E65-D97A-4AC7-9163-8A81F3709E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33214E65-D97A-4AC7-9163-8A81F3709E93}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D0556B4-9FEE-485E-8D9A-76986ED2CEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D0556B4-9FEE-485E-8D9A-76986ED2CEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D0556B4-9FEE-485E-8D9A-76986ED2CEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D0556B4-9FEE-485E-8D9A-76986ED2CEB5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9E73F40A-233D-4FF5-B4E7-0071B62F33D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E73F40A-233D-4FF5-B4E7-0071B62F33D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E73F40A-233D-4FF5-B4E7-0071B62F33D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -65,13 +61,17 @@ Global
 		{35AB0FCA-99E3-41A9-8418-A99B54236D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35AB0FCA-99E3-41A9-8418-A99B54236D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35AB0FCA-99E3-41A9-8418-A99B54236D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E228CBDF-CD6E-457E-8DD9-7B9787E29DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E228CBDF-CD6E-457E-8DD9-7B9787E29DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E228CBDF-CD6E-457E-8DD9-7B9787E29DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E228CBDF-CD6E-457E-8DD9-7B9787E29DF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{33214E65-D97A-4AC7-9163-8A81F3709E93} = {DBC8FDE2-EEB8-40FB-A5C4-6C7E853C2B15}
-		{5D0556B4-9FEE-485E-8D9A-76986ED2CEB5} = {DBC8FDE2-EEB8-40FB-A5C4-6C7E853C2B15}
+		{E228CBDF-CD6E-457E-8DD9-7B9787E29DF1} = {DBC8FDE2-EEB8-40FB-A5C4-6C7E853C2B15}
 		{9E73F40A-233D-4FF5-B4E7-0071B62F33D8} = {406328F7-676C-4F38-B28E-D2F1C2DE3674}
 		{C2220077-76BF-404B-BA60-6A4D4B398326} = {406328F7-676C-4F38-B28E-D2F1C2DE3674}
 		{E17DFCA5-E814-4D15-B4F3-9A5162989B47} = {406328F7-676C-4F38-B28E-D2F1C2DE3674}
