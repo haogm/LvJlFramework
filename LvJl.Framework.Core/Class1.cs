@@ -1,4 +1,4 @@
-﻿namespace LvJl.Component.Tools
+﻿namespace LvJl.Framework.Core
 {
     public class Class1
     {

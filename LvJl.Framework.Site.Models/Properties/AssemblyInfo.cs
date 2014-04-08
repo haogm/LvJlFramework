@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("LvJl.Component.Tools")]
+[assembly: AssemblyTitle("LvJl.Framework.Site.Models")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LvJl.Component.Tools")]
+[assembly: AssemblyProduct("LvJl.Framework.Site.Models")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("11ccd29c-1833-4e1c-b9a4-32ec59d1bad1")]
+[assembly: Guid("63d47dba-6f1f-4de0-b2b3-7eaaf11e64ec")]
 
 // 程序集的版本信息由下面四个值组成: 
 //
