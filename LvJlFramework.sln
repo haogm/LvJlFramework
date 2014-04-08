@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LvJl.Framework.Site", "LvJl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LvJl.Framework.Site.Models", "LvJl.Framework.Site.Models\LvJl.Framework.Site.Models.csproj", "{ACDE8D4C-D087-469D-8FE9-F79AE93965AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LvJl.Framework.FineUI", "LvJl.framework.Webform\LvJl.Framework.FineUI.csproj", "{35AB0FCA-99E3-41A9-8418-A99B54236D8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{ACDE8D4C-D087-469D-8FE9-F79AE93965AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACDE8D4C-D087-469D-8FE9-F79AE93965AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACDE8D4C-D087-469D-8FE9-F79AE93965AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35AB0FCA-99E3-41A9-8418-A99B54236D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AB0FCA-99E3-41A9-8418-A99B54236D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AB0FCA-99E3-41A9-8418-A99B54236D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AB0FCA-99E3-41A9-8418-A99B54236D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,5 +77,6 @@ Global
 		{E17DFCA5-E814-4D15-B4F3-9A5162989B47} = {406328F7-676C-4F38-B28E-D2F1C2DE3674}
 		{CD1BDB13-0C3F-4321-A48D-FD07C43E6BAB} = {863365DC-14FE-429E-B908-6F11A80AEFA7}
 		{ACDE8D4C-D087-469D-8FE9-F79AE93965AD} = {863365DC-14FE-429E-B908-6F11A80AEFA7}
+		{35AB0FCA-99E3-41A9-8418-A99B54236D8A} = {097F8451-D320-4A72-8171-8A7A219A484E}
 	EndGlobalSection
 EndGlobal
