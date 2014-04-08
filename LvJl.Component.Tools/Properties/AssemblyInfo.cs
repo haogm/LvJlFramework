@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // 有关程序集的常规信息通过以下
@@ -7,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("LvJl.Component.Tools")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Microsoft")]
 [assembly: AssemblyProduct("LvJl.Component.Tools")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("Copyright © Microsoft 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("11ccd29c-1833-4e1c-b9a4-32ec59d1bad1")]
+[assembly: Guid("b15c32fe-abf8-4326-9908-0da1dce1c6d5")]
 
 // 程序集的版本信息由下面四个值组成: 
 //
