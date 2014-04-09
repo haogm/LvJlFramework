@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5D0556B4-9FEE-485E-8D9A-76986ED2CEB5}</ProjectGuid>
+    <ProjectGuid>{E228CBDF-CD6E-457E-8DD9-7B9787E29DF1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LvJl.Component.Tools</RootNamespace>
