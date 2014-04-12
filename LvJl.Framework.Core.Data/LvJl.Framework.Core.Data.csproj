@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,6 +42,28 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\System\ILoginLogRepository.cs" />
+    <Compile Include="Repositories\System\Implement\SysRoleRepository.cs" />
+    <Compile Include="Repositories\System\ISysRoleRepository.cs" />
+    <Compile Include="Repositories\System\IUserExtendRepository.cs" />
+    <Compile Include="Repositories\System\ISysUserRepository.cs" />
+    <Compile Include="Repositories\System\Implement\LoginLogRepository.cs" />
+    <Compile Include="Repositories\System\Implement\UserExtendRepository.cs" />
+    <Compile Include="Repositories\System\Implement\SysUserRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LvJl.Component.Data\LvJl.Component.Data.csproj">
+      <Project>{33214e65-d97a-4ac7-9163-8a81f3709e93}</Project>
+      <Name>LvJl.Component.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LvJl.Component.Tools\LvJl.Component.Tools.csproj">
+      <Project>{E228CBDF-CD6E-457E-8DD9-7B9787E29DF1}</Project>
+      <Name>LvJl.Component.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LvJl.Framework.Core.Models\LvJl.Framework.Core.Models.csproj">
+      <Project>{e17dfca5-e814-4d15-b4f3-9a5162989b47}</Project>
+      <Name>LvJl.Framework.Core.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

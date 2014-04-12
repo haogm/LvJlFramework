@@ -12,7 +12,7 @@ namespace LvJl.Framework.Core
         /// <summary>
         /// 获取 用户信息查询数据集
         /// </summary>
-        IQueryable<SysUser> Users { get; }
+        IQueryable<SysUser> SysUsers { get; }
 
         /// <summary>
         /// 获取用户扩展信息查询数据集
@@ -27,7 +27,7 @@ namespace LvJl.Framework.Core
         /// <summary>
         /// 获取 角色信息查询数据集
         /// </summary>
-        IQueryable<SysRole> Roles { get; } 
+        IQueryable<SysRole> SysRoles { get; } 
         
         /// <summary>
         /// 用户登录

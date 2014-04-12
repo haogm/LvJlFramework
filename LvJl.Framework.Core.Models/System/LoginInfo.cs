@@ -16,6 +16,11 @@
         public string Password { get; set; }
 
         /// <summary>
+        /// 获取或设置 电子邮件
+        /// </summary>
+        public string Email { get; set; }
+
+        /// <summary>
         /// 获取或设置 IP地址
         /// </summary>
         public string IpAddress { get; set; }

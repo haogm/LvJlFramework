@@ -54,6 +54,10 @@
       <Project>{e228cbdf-cd6e-457e-8dd9-7b9787e29df1}</Project>
       <Name>LvJl.Component.Tools</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LvJl.Framework.Core.Data\LvJl.Framework.Core.Data.csproj">
+      <Project>{C2220077-76BF-404B-BA60-6A4D4B398326}</Project>
+      <Name>LvJl.Framework.Core.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LvJl.Framework.Core.Models\LvJl.Framework.Core.Models.csproj">
       <Project>{e17dfca5-e814-4d15-b4f3-9a5162989b47}</Project>
       <Name>LvJl.Framework.Core.Models</Name>
